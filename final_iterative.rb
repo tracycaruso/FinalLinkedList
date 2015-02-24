@@ -73,16 +73,7 @@ class IterativeLinkedList
     end
   end
 
-  def to_a
-    result = []
-    current = head
 
-    while current
-      result << current.data
-      current = current.link
-    end
-    return result
-  end
 
 
 end
@@ -112,6 +103,7 @@ list.push("Dog")
 list.push("Pizza")
 list.push("Cat")
 list.push("Dog")
+list.pop
 
 
 

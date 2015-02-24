@@ -87,9 +87,7 @@ class IterativeLinkedListTest < Minitest::Test
     assert_equal "world", list.pop
   end
 
-  def test_it_converts_to_an_array_when_there_are_no_elements
-    assert_equal [], list.to_a
-  end
+
 
   def test_it_converts_to_an_array_with_several_elements
     list.push("hello")

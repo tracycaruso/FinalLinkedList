@@ -45,7 +45,6 @@ class LinkedList
   end
 
 
-end
 
 
 
@@ -56,3 +55,14 @@ class Node
     @data = data
   end
 end
+
+list = LinkedList.new
+
+
+list.push("Cat")
+list.push("Dog")
+list.push("Pizza")
+list.push("Cat")
+list.push("Dog")
+
+puts list.inspect.split
